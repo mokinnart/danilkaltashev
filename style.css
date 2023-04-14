@@ -44,7 +44,7 @@ a:hover {
 /* header */
 
 header {
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
 
     width: 100%;
 
@@ -85,7 +85,7 @@ footer {
 }
 
 .left {
-    margin-right: 160px;
+    margin-right: 80px;
 }
 
 .works-footer {
@@ -134,7 +134,7 @@ footer {
         margin-right: 0px;
     }
 
-    .contacts-left {
+    .contact-left {
         display: none;
     }
 }
