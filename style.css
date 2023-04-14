@@ -91,3 +91,60 @@ footer {
 .works-footer {
     margin-top: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    body {    
+        font-size: 12px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .left {
+        margin-right: 0;
+    }
+
+    .text {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation a {
+        margin-right: 0px;
+    }
+
+    .contacts-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {    
+        font-size: 12px;
+    }
+
+    .text {
+        flex-direction: column;
+    }
+}
